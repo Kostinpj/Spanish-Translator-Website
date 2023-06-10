@@ -48,13 +48,16 @@
 
 <div class="container">
       <h2 class="contact-us">Contact Us</h2>
-  <form action="https://formsubmit.co/kostinpj@gmail.com" method="POST">
-      <input type="text" class="field" placeholder="Your Name">
-      <input type="text" class="field" placeholder="Your Email">
-      <input type="text" class="field" placeholder="Phone">
-      <textarea placeholder="Message" class="field"></textarea>
+  <form action="https://formsubmit.co/a05382a18d8abcc98716f42d6a1a3fd9" method="POST">
+      <input type="text" name="name" class="field" placeholder="Your Name" required>
+      <input type="email" name="email" class="field" placeholder="Your Email" required>
+      <input type="text" name="phone" class="field" placeholder="Phone" required>
+      <textarea name="message" placeholder="Write your request here please" class="field"></textarea>
+      <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+      <input type="hidden" name="_autoresponse" value="Thank you so much for contacting SpotOn Translators. We will respond to your request within 24 hours to discuss moving forward. Have a wonderful day and thank you for choosing us!">
+      <input type="hidden" name="_captcha" value="false">
       <button class="btn">Send</button>
-  </form>
+    </form>
   </div>
 </div>
 </body>
